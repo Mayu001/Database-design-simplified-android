@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Database Design</string>
+    <string name="firstname">Enter First name</string>
+    <string name="lastname">Enter Last Name</string>
+    <string name="marks">Enter the Marks</string>
+    <string name="id">Enter Id in case of Update or Delete</string>
+    <string name="btnadd">Add Data</string>
+    <string name="btnview">View Data</string>
+    <string name="btnUpdate">Update Data</string>
+    <string name="btndelete">Delete Data</string>
+</resources>
