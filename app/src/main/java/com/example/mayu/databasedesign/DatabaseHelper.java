@@ -1,3 +1,5 @@
+package com.example.mayu.databasedesign;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -6,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by Mayu on 06-11-2017.
+ * github= "https://github.com/Mayu001"
  */
 
 public class DatabaseHelper extends SQLiteOpenHelper {

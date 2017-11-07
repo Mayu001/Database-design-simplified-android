@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mayu.databasedesign.MainActivity">
+    tools:context="com.example.mayu.databasedesign.MainActivity"
+    android:background="#add8e6">
 
 
     <EditText
@@ -30,7 +31,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/lastname"
-        android:textColorHint="@color/colorAccent"/>
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimary"/>
 
     <EditText
         android:id="@+id/marks"
@@ -42,7 +44,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/marks"
-        android:textColorHint="@color/colorAccent"/>
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimary"/>
 
     <EditText
         android:id="@+id/userId"
@@ -54,7 +57,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/id"
-        android:textColorHint="@color/colorAccent"/>
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimary"/>
 
     <Button
         android:id="@+id/btnadd"
@@ -62,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/userId"
         android:layout_below="@+id/userId"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="49dp"
         android:text="@string/btnadd"
         android:textColor="@color/colorPrimaryDark" />
 
@@ -73,7 +77,8 @@
         android:layout_alignTop="@+id/btnadd"
         android:layout_centerHorizontal="true"
         android:text="@string/btnUpdate"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark"
+        />
 
     <Button
         android:id="@+id/btnView"
@@ -88,11 +93,24 @@
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnupdate"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:layout_toStartOf="@+id/btnView"
         android:text="@string/btndelete"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/idfordelete"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnadd"
+        android:layout_below="@+id/btnadd"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/idfordelete"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorAccent" />
 
 
 </RelativeLayout>
