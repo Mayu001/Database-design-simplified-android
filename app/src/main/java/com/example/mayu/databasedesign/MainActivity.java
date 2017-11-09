@@ -13,6 +13,7 @@ import android.widget.Toast;
  Author Mayank Mohit (Mayu)
  github= "https://github.com/Mayu001"
  */
+//Check check
 public class MainActivity extends AppCompatActivity {
     DatabaseHelper myDb;
     EditText editName,editlastName,editMarks,editID,editiddelete;
